@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,400,400i,700,700i|Exo:300,400,400i,500,700,700i');
+
+
+/*---------------------------------------BACKGROUND*/
+
+body {
+    background-color: beige;
+}
+
+/*---------------------------------------/background*/
+
+/*---------------------------------------SPECIAL*/
+
+.tac {
+    text-align: center;
+}
+
+.cap {
+    text-transform: uppercase;
+}
+
+.exo {
+    font-family: "Exo", sans-serif;
+}
+
+.firstcap {
+    text-transform: capitalize;
+}
+
+/*---------------------------------------/special*/
+
+/*---------------------------------------HEADER*/
+
+/*---------------------------------------ALERT*/
+
+.top-alert {
+    margin-bottom: 0px;
+}
+
+/*---------------------------------------/alert*/
+
+/*---------------------------------------BANNER*/
+
+.banner-logo {
+    background-color: grey;
+    height: 115px;
+
+    color: white;
+    font-size: 30px;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+}
+
+.banner-logo span h1 {
+    font-weight: 700;
+}
+
+/*---------------------------------------/banner*/
+
+/*---------------------------------------NAV*/
+
+.home-button {
+    height: 100px;
+    background-color: blue;
+}
+
+.events-button {
+    height: 100px;
+    background-color: green;
+}
+
+.music-button {
+    height: 100px;
+    background-color: red;
+}
+
+.about-button {
+    height: 100px;
+    background-color: yellow;
+}
+
+.contact-button {
+    height: 100px;
+    background-color: pink;
+}
+
+.menuitem span {
+    color: white;
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "Exo", sans-serif;
+}
+
+.menuitem a {
+    width: 100%;
+}
+
+.menuitem .fa {
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+/*---------------------------------------/nav*/
+
+/*---------------------------------------/header*/
+
+/*---------------------------------------SECTION*/
+
+/*---------------------------------------MEETTHEMONKEES*/
+
+.meet-monkees .title-meet {
+    background-color: grey;
+    font-size: 24px;
+    color: white;
+}
+
+.meet-monkees .title-meet p {
+    margin-bottom: 0px;
+}
+
+.meet-monkees .first-names p,
+.meet-monkees .second-names p {
+    margin-top: 25px;
+}
+
+.meet-monkees .first-names,
+.meet-monkees .second-names {
+    background-color: grey;
+    color: white;
+    font-size: 30px;
+    height: 257px;
+}
+
+.meet-monkees .band-logo-front {
+    height: 257px;
+    background: url(/assets/images/band.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+    z-index: 1;
+}
+
+/*---------------------------------------/meetthemonkees*/
+
+/*---------------------------------------/MINI-ABOUT*/
+
+.about-monkees-text p {
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.about-monkees-text {
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    height: 275px;
+}
+
+.about-monkees-para p {
+    margin-bottom: 0px;
+    margin-top: 75px;
+}
+
+.about-monkees-para {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    height: 275px;
+    border-left: solid 3px white;
+}
+
+.read-more-info-btn {
+    margin-top: 15px;
+    color: black;
+}
+
+.read-more-info-btn:hover {
+    margin-top: 15px;
+    color: white;
+    background-color: grey;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+}
+
+/*---------------------------------------/mini-about*/
+
+/*---------------------------------------/section*/
+
+/*---------------------------------------MEDIA*/
+
+@media (max-width: 1280px) {
+    .meet-monkees .band-logo-front {
+        background: url();
+        background-color: grey;
+    }
+}
+
+@media (max-width: 766px) {
+    .meet-monkees .band-logo-front {
+        display: none;
+    }
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+
+/*---------------------------------------/media*/
