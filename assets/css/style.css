@@ -169,7 +169,7 @@ body {
 
 .about-monkees-para p {
     margin-bottom: 0px;
-    margin-top: 75px;
+    margin-top: 0px;
 }
 
 .about-monkees-para {
@@ -197,6 +197,48 @@ body {
 /*---------------------------------------/mini-about*/
 
 /*---------------------------------------/section*/
+
+/*---------------------------------------FOOTER*/
+
+.contact-us-footer{
+    color: white;
+    background-color: grey;
+}
+
+/*---------------------------------------SOCIAL-LINKS*/
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 9px 0px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+.social-links li a i:hover {
+    color: #1db8ab;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a    {
+    color: white;
+}
+
+/*---------------------------------------/social-links*/
+
+/*---------------------------------------/footer*/
 
 /*---------------------------------------MEDIA*/
 
