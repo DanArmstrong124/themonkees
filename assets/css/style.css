@@ -46,7 +46,7 @@ body {
 
 .top-alert a {
     text-decoration: none;
-    font-weight: 700px;
+    font-weight: 400;
 }
 
 /*---------------------------------------/alert*/
@@ -376,7 +376,7 @@ body {
 @media (max-width: 740px) {
     .meet-monkees .first-names,
     .meet-monkees .second-names {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
