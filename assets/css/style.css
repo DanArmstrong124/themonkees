@@ -40,7 +40,7 @@ body {
     letter-spacing: 2px;
 }
 
-.top-alert a{
+.top-alert a {
     text-decoration: none;
     font-weight: 700px;
 }
@@ -67,40 +67,120 @@ body {
 
 /*---------------------------------------NAV*/
 
+/*---------------------------------------BUTTONS*/
+
+/*---------------------------------------HOME-BUTTON*/
+
 .home-button {
+    height: 100px;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.home-button:hover {
+
     height: 100px;
     background-color: #b18540;
     border-left: 2px solid black;
     border-right: 2px solid black;
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
 }
+
+/*---------------------------------------/home-button*/
+
+/*---------------------------------------EVENTS-BUTTON*/
 
 .events-button {
     height: 100px;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.events-button:hover {
+    height: 100px;
     background-color: #b18540;
     border-left: 2px solid black;
     border-right: 2px solid black;
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
 }
+
+/*---------------------------------------/events-button*/
+
+/*---------------------------------------MUSIC-BUTTON*/
 
 .music-button {
     height: 100px;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.music-button:hover {
+    height: 100px;
     background-color: #b18540;
     border-left: 2px solid black;
     border-right: 2px solid black;
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
 }
+
+/*---------------------------------------/music-button*/
+
+/*---------------------------------------ABOUT-BUTTON*/
 
 .about-button {
     height: 100px;
-    background-color: #b18540;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
-.contact-button {
+.about-button:hover {
     height: 100px;
     background-color: #b18540;
     border-left: 2px solid black;
     border-right: 2px solid black;
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
 }
+
+/*---------------------------------------/about-button*/
+
+/*---------------------------------------CONTACT-BUTTON*/
+
+.contact-button {
+    height: 100px;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.contact-button:hover {
+    height: 100px;
+    background-color: #b18540;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+}
+
+/*---------------------------------------/contact-button*/
+
+/*---------------------------------------/buttons*/
 
 .menuitem span {
     color: white;
@@ -276,7 +356,7 @@ body {
 }
 
 .social-links li a i:hover {
-    color: #1db8ab;
+    color: lightblue;
 
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -330,12 +410,20 @@ body {
         background-color: #b18540;
         border: 2px solid black;
     }
+    .about-monkees-para {
+        color: white;
+        background-color: black;
+        font-size: 20px;
+        height: 275px;
+        top: 15px;
+        border: 0px;
+    }
+
 }
 
-.hvr-sweep-to-bottom:before {
+/*.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 100px;
-}
-
+}*/
 
 /*---------------------------------------/media*/
