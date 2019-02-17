@@ -27,6 +27,10 @@ body {
     text-transform: capitalize;
 }
 
+.scroll-down-text {
+    display: none;
+}
+
 /*---------------------------------------/special*/
 
 /*---------------------------------------HEADER*/
@@ -328,6 +332,9 @@ body {
 }
 
 @media (max-width: 766px) {
+    .scroll-down-text {
+        display: block;
+    }
     .banner-logo span p {
         font-size: 15px;
     }
