@@ -69,13 +69,11 @@ body {
 
 /*---------------------------------------BUTTONS*/
 
-/*---------------------------------------HOME-BUTTON*/
-
 .home-button,
 .events-button,
 .music-button,
 .about-button,
-.contact-button    {
+.contact-button {
     height: 100px;
     background-color: black;
     border-left: 2px solid white;
@@ -86,7 +84,7 @@ body {
 .events-button:hover,
 .music-button:hover,
 .about-button:hover,
-.contact-button:hover    {
+.contact-button:hover {
 
     height: 100px;
     background-color: #b18540;
@@ -194,6 +192,7 @@ body {
     font-size: 50px;
     height: 275px;
     top: 15px;
+    padding-top: 30px;
 }
 
 .about-monkees-para p {
@@ -208,6 +207,7 @@ body {
     font-size: 20px;
     height: 275px;
     border-left: solid 3px white;
+    border-right: solid 3px white;
     top: 15px;
 }
 
@@ -299,6 +299,17 @@ body {
     }
 }
 
+@media (max-width: 1180px) {
+    .about-monkees-text {
+        color: white;
+        background-color: black;
+        font-size: 50px;
+        height: 275px;
+        top: 15px;
+        padding-top: 0px;
+    }
+}
+
 @media (max-width: 766px) {
     .meet-monkees .band-logo-front {
         display: none;
@@ -334,9 +345,7 @@ body {
         font-size: 20px;
         height: 275px;
         top: 15px;
-        border: 0px;
     }
-
 }
 
 /*.hvr-sweep-to-bottom:before {
