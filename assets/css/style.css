@@ -4,7 +4,7 @@
 /*---------------------------------------BACKGROUND*/
 
 body {
-    background-color: beige;
+    background-color: grey;
 }
 
 /*---------------------------------------/background*/
@@ -35,6 +35,14 @@ body {
 
 .top-alert {
     margin-bottom: 0px;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.top-alert a{
+    text-decoration: none;
+    font-weight: 700px;
 }
 
 /*---------------------------------------/alert*/
@@ -61,27 +69,37 @@ body {
 
 .home-button {
     height: 100px;
-    background-color: blue;
+    background-color: #b18540;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .events-button {
     height: 100px;
-    background-color: green;
+    background-color: #b18540;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .music-button {
     height: 100px;
-    background-color: red;
+    background-color: #b18540;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .about-button {
     height: 100px;
-    background-color: yellow;
+    background-color: #b18540;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .contact-button {
     height: 100px;
-    background-color: pink;
+    background-color: #b18540;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .menuitem span {
@@ -121,8 +139,10 @@ body {
 
 .meet-monkees .title-meet {
     background-color: grey;
-    font-size: 24px;
+    font-size: 60px;
+    font-weight: 700;
     color: white;
+    top: 15px;
 }
 
 .meet-monkees .title-meet p {
@@ -132,28 +152,38 @@ body {
 .meet-monkees .first-names p,
 .meet-monkees .second-names p {
     margin-top: 25px;
+    letter-spacing: 5px;
 }
 
 .meet-monkees .first-names,
 .meet-monkees .second-names {
     background-color: grey;
-    color: white;
-    font-size: 30px;
+    color: #fafafa;
+    font-size: 50px;
     height: 257px;
+    top: 15px;
 }
 
-.meet-monkees .band-logo-front {
+/*.meet-monkees .band-logo-front {
     height: 257px;
+    width: 220px;
     background: url(/assets/images/band.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: grey;
     z-index: 1;
-}
+    top: 15px;
+    left: 50px;
+    border: 2px solid black;
+} */
 
 /*---------------------------------------/meetthemonkees*/
 
 /*---------------------------------------/MINI-ABOUT*/
+
+.mini-about {
+    padding-top: 15px;
+}
 
 .about-monkees-text p {
     margin-bottom: 0px;
@@ -165,11 +195,13 @@ body {
     background-color: black;
     font-size: 50px;
     height: 275px;
+    top: 15px;
 }
 
 .about-monkees-para p {
     margin-bottom: 0px;
     margin-top: 0px;
+    padding-top: 60px;
 }
 
 .about-monkees-para {
@@ -178,6 +210,7 @@ body {
     font-size: 20px;
     height: 275px;
     border-left: solid 3px white;
+    top: 15px;
 }
 
 .read-more-info-btn {
@@ -200,24 +233,43 @@ body {
 
 /*---------------------------------------FOOTER*/
 
-.contact-us-footer{
+.footer {
     color: white;
     background-color: grey;
+    padding-top: 15px;
+    border-top: 3px solid black;
 }
+
+/*---------------------------------------CONTACT-FOOTER*/
+
+.contact-us-footer {
+    padding-top: 25px;
+}
+
+/*---------------------------------------/contact-footer*/
+
+/*---------------------------------------COPYRIGHT*/
+
+.copyright {
+    padding-top: 25px;
+}
+
+/*---------------------------------------/copyright*/
 
 /*---------------------------------------SOCIAL-LINKS*/
 
 .social-links {
     padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 9px 0px;
+    padding: 6px 0px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -232,7 +284,7 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a    {
+.social-links li a {
     color: white;
 }
 
@@ -252,6 +304,31 @@ body {
 @media (max-width: 766px) {
     .meet-monkees .band-logo-front {
         display: none;
+    }
+    .home-button {
+        height: 100px;
+        background-color: #b18540;
+        border: 2px solid black;
+    }
+    .events-button {
+        height: 100px;
+        background-color: #b18540;
+        border: 2px solid black;
+    }
+    .music-button {
+        height: 100px;
+        background-color: #b18540;
+        border: 2px solid black;
+    }
+    .about-button {
+        height: 100px;
+        background-color: #b18540;
+        border: 2px solid black;
+    }
+    .contact-button {
+        height: 100px;
+        background-color: #b18540;
+        border: 2px solid black;
     }
 }
 
