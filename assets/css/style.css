@@ -71,14 +71,22 @@ body {
 
 /*---------------------------------------HOME-BUTTON*/
 
-.home-button {
+.home-button,
+.events-button,
+.music-button,
+.about-button,
+.contact-button    {
     height: 100px;
     background-color: black;
     border-left: 2px solid white;
     border-right: 2px solid white;
 }
 
-.home-button:hover {
+.home-button:hover,
+.events-button:hover,
+.music-button:hover,
+.about-button:hover,
+.contact-button:hover    {
 
     height: 100px;
     background-color: #b18540;
@@ -89,96 +97,6 @@ body {
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
 }
-
-/*---------------------------------------/home-button*/
-
-/*---------------------------------------EVENTS-BUTTON*/
-
-.events-button {
-    height: 100px;
-    background-color: black;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-}
-
-.events-button:hover {
-    height: 100px;
-    background-color: #b18540;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-
-    transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-/*---------------------------------------/events-button*/
-
-/*---------------------------------------MUSIC-BUTTON*/
-
-.music-button {
-    height: 100px;
-    background-color: black;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-}
-
-.music-button:hover {
-    height: 100px;
-    background-color: #b18540;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-
-    transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-/*---------------------------------------/music-button*/
-
-/*---------------------------------------ABOUT-BUTTON*/
-
-.about-button {
-    height: 100px;
-    background-color: black;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-}
-
-.about-button:hover {
-    height: 100px;
-    background-color: #b18540;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-
-    transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-/*---------------------------------------/about-button*/
-
-/*---------------------------------------CONTACT-BUTTON*/
-
-.contact-button {
-    height: 100px;
-    background-color: black;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-}
-
-.contact-button:hover {
-    height: 100px;
-    background-color: #b18540;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-
-    transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-/*---------------------------------------/contact-button*/
 
 /*---------------------------------------/buttons*/
 
