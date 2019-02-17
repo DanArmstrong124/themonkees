@@ -63,6 +63,10 @@ body {
     font-weight: 700;
 }
 
+.banner-logo span p {
+    font-weight: 300;
+}
+
 /*---------------------------------------/banner*/
 
 /*---------------------------------------NAV*/
@@ -209,6 +213,7 @@ body {
     border-left: solid 3px white;
     border-right: solid 3px white;
     top: 15px;
+    overflow-y: auto;
 }
 
 .read-more-info-btn {
@@ -311,33 +316,34 @@ body {
 }
 
 @media (max-width: 766px) {
+    .banner-logo span p {
+        font-size: 15px;
+    }
     .meet-monkees .band-logo-front {
         display: none;
     }
-    .home-button {
-        height: 100px;
-        background-color: #b18540;
-        border: 2px solid black;
-    }
-    .events-button {
-        height: 100px;
-        background-color: #b18540;
-        border: 2px solid black;
-    }
-    .music-button {
-        height: 100px;
-        background-color: #b18540;
-        border: 2px solid black;
-    }
-    .about-button {
-        height: 100px;
-        background-color: #b18540;
-        border: 2px solid black;
-    }
+    .home-button,
+    .events-button,
+    .music-button,
+    .about-button,
     .contact-button {
         height: 100px;
+        background-color: black;
+        border: 2px solid white;
+    }
+    .home-button:hover,
+    .events-button:hover,
+    .music-button:hover,
+    .about-button:hover,
+    .contact-button:hover {
+        height: 100px;
         background-color: #b18540;
-        border: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+
+        transition: all .35s ease-in-out;
+        -moz-transition: all .35s ease-in-out;
+        -webkit-transition: all .35s ease-in-out;
     }
     .about-monkees-para {
         color: white;
@@ -345,6 +351,13 @@ body {
         font-size: 20px;
         height: 275px;
         top: 15px;
+    }
+}
+
+@media (max-width: 740px) {
+    .meet-monkees .first-names,
+    .meet-monkees .second-names    {
+        font-size: 30px;
     }
 }
 
