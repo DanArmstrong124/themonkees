@@ -185,16 +185,24 @@ body {
     padding-top: 15px;
 }
 
+.mini-about div .band-image {
+    height: 257px;
+    background: url(/assets/images/band.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}
+
 .about-monkees-text p {
     margin-bottom: 0px;
-    margin-top: 25px;
+    margin-top: 115px;
 }
 
 .about-monkees-text {
     color: white;
     background-color: black;
     font-size: 50px;
-    height: 275px;
+    height: 450px;
     top: 15px;
     padding-top: 30px;
 }
@@ -209,7 +217,7 @@ body {
     color: white;
     background-color: black;
     font-size: 20px;
-    height: 275px;
+    height: 450px;
     border-left: solid 3px white;
     border-right: solid 3px white;
     top: 15px;
@@ -309,9 +317,13 @@ body {
         color: white;
         background-color: black;
         font-size: 50px;
-        height: 275px;
+        height: 450px;
         top: 15px;
-        padding-top: 0px;
+        padding-top: 90px;
+    }
+    .about-monkees-text p {
+        margin-bottom: 0px;
+        margin-top: 25px;
     }
 }
 
@@ -356,7 +368,7 @@ body {
 
 @media (max-width: 740px) {
     .meet-monkees .first-names,
-    .meet-monkees .second-names    {
+    .meet-monkees .second-names {
         font-size: 30px;
     }
 }
