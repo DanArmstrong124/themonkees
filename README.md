@@ -1,36 +1,58 @@
-# Your Project's Name
+# The Monkees
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+In this project I will be designing a user friendly website that allows for anyone to access music, events and some information on the monkees.
+It will be using Javascript, Html, CSS and Jquery.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- - As a monkees fan, I want to hear the music of the monkees on their website, and can achieve this via the music page.
+- - As a monkees fan, I want to learn more about the monkees on their website, and can achieve this via the about page.
+- - As a monkees fan, I want to see the music of the monkees live, and can achieve this via the events page.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+You can find my wireframe for my project via the following path:
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+/assets/wireframe/milestoneproject.pdf
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+My website will have 5 pages, each with a header, a main section and a footer.
+A small alert bar will be on the top of the page allowing for users to know any brand new information, or to point them in a direction.
+
+the 5 pages are:
+
+- - Home page: basic info, the names of the members in the Monkees etc.
+- - Events page: Will have events "Near" you, and events globally.
+- - Music page: Will have the music uploaded in MP3 and MP4 formats for the user to listen to.
+- - About page: Will have a more detailed description of who the monkees are and what they do.
+- - Contact page: Will have a form that a user can fill out to get in touch.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Home page - the users first impression on the site.
+- Alert bar - helps give the user some direction or updates them on news.
+- Header - holds the menu, which shrinks into a smaller symbol for mobile devices.
+- Footer - holds copyright, a small contact us and social links.
+- Social links - 3 links which a connected to send the user to the Twitter, Facebook or Youtube of the monkees via a new tab.
+- Hover - around the site, I have implimented minor hover states on buttons.
 
 ### Features Left to Implement
-- Another feature idea
+- Events page
+- Music page
+- About page
+- Contact page
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
+    - The project wirefram was created on Balsamiq.
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+    - The project uses **HTML** for the website to be developed.
+
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+    - The project uses **CSS** to give it customised design, responsive design, media quieries etc.
+
+- [Boostrap](https://getbootstrap.com/docs/3.4/getting-started/)
+    - The project uses **Bootstrap** such as CSS and Javascript bootstrap for simplified responsive design.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.

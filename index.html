@@ -15,9 +15,11 @@
 </head>
 
 <body>
-    <div class="alert alert-success top-alert tac cap"><marquee>
-        Not familiar with The Monkees? visit our about page! - Got a question? press on the contact us button! - possible new events near you... click <a href="#">here</a>! or visit our events page!
-    </marquee></div>
+    <div class="alert alert-success top-alert tac cap">
+        <marquee>
+            Not familiar with The Monkees? visit our about page! - Got a question? press on the contact us button! - possible new events near you... click <a href="#">here</a>! or visit our events page!
+        </marquee>
+    </div>
     <header class="container-fluid">
         <div class="row banner">
             <div class="col-xs-12 col banner-logo tac cap">
@@ -26,7 +28,8 @@
             </div>
         </div>
         <div class="row">
-            <ul id="nav" class="list-inline clearfix">
+            <!--Normal menu-->
+            <ul id="nav" class="list-inline clearfix hidden-xs">
                 <li class="col-xs-12 col-sm-2 home-button menuitem tac cap exo">
                     <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                 </li>
@@ -43,6 +46,30 @@
                     <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Contact Us</span></a>
                 </li>
             </ul>
+            <!--Dropdown menu for mobile-->
+            <div class="dropdown col-xs-12 hidden-sm hidden-md hidden-lg">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fa fa-th burger-button"></i>
+    <span class="caret"></span>
+  </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li class="col-xs-12 col-sm-2 home-button menuitem tac cap exo">
+                        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                    </li>
+                    <li class="col-xs-6 col-sm-2 events-button menuitem tac cap exo">
+                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Events</span></a>
+                    </li>
+                    <li class="col-xs-6 col-sm-4 music-button menuitem tac cap exo">
+                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Music</span></a>
+                    </li>
+                    <li class="col-xs-6 col-sm-2 about-button menuitem tac cap exo">
+                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>About Us</span></a>
+                    </li>
+                    <li class="col-xs-6 col-sm-2 contact-button menuitem tac cap exo">
+                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Contact Us</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </header>
@@ -97,6 +124,9 @@
         </div>
     </footer>
 
+    <!--Javascript and JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 
 </html>

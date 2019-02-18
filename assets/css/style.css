@@ -31,6 +31,11 @@ body {
     display: none;
 }
 
+.burger-button {
+    font-size: 20px;
+    color: black;
+}
+
 /*---------------------------------------/special*/
 
 /*---------------------------------------HEADER*/
@@ -332,6 +337,16 @@ body {
 }
 
 @media (max-width: 766px) {
+    .social-links li a i {
+        width: 24px;
+        height: 24px;
+        padding: 6px 0px;
+        border-radius: 50%;
+        font-size: 12px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+    }
     .scroll-down-text {
         display: block;
     }
