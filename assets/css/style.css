@@ -96,6 +96,10 @@ body {
     background-color: #de2e30;
     border-left: 2px solid white;
     border-right: 2px solid white;
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
 }
 
 .home-button:hover,
@@ -241,12 +245,17 @@ body {
 .read-more-info-btn {
     margin-top: 15px;
     color: black;
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
 }
 
 .read-more-info-btn:hover {
     margin-top: 15px;
     color: white;
     background-color: grey;
+    
     transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
