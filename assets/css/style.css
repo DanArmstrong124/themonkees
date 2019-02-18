@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:200,400,400i,700,700i|Exo:300,400,400i,500,700,700i');
-
+/*Colour Scheme: #f0df02 GOLD  #de2e30 RED  #fffee9 BEIGE */
 
 /*---------------------------------------BACKGROUND*/
 
 body {
-    background-color: grey;
+    background-color: #fffee9;
 }
 
 /*---------------------------------------/background*/
@@ -64,10 +64,10 @@ body {
 /*---------------------------------------BANNER*/
 
 .banner-logo {
-    background-color: grey;
+    background-color: #fffee9;
     height: 115px;
 
-    color: white;
+    color: black;
     font-size: 30px;
     font-family: "Exo", sans-serif;
     font-weight: 400;
@@ -93,7 +93,7 @@ body {
 .about-button,
 .contact-button {
     height: 100px;
-    background-color: black;
+    background-color: #de2e30;
     border-left: 2px solid white;
     border-right: 2px solid white;
 }
@@ -105,7 +105,7 @@ body {
 .contact-button:hover {
 
     height: 100px;
-    background-color: #b18540;
+    background-color: #bd2729;
     border-left: 2px solid black;
     border-right: 2px solid black;
 
@@ -117,7 +117,7 @@ body {
 /*---------------------------------------/buttons*/
 
 .menuitem span {
-    color: white;
+    color: #f0df02;
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -138,7 +138,7 @@ body {
 }
 
 .menuitem .fa {
-    color: white;
+    color: #f0df02;
     font-size: 25px;
     padding-top: 20px;
 }
@@ -152,10 +152,10 @@ body {
 /*---------------------------------------MEETTHEMONKEES*/
 
 .meet-monkees .title-meet {
-    background-color: grey;
+    background-color: #fffee9;
     font-size: 80px;
     font-weight: 700;
-    color: white;
+    color: black;
     top: 85px;
 }
 
@@ -171,8 +171,8 @@ body {
 
 .meet-monkees .first-names,
 .meet-monkees .second-names {
-    background-color: grey;
-    color: #fafafa;
+    background-color: #fffee9;
+    color: black;
     font-size: 50px;
     height: 257px;
     top: 15px;
@@ -213,8 +213,8 @@ body {
 }
 
 .about-monkees-text {
-    color: white;
-    background-color: black;
+    color: #f0df02;
+    background-color: #de2e30;
     font-size: 50px;
     height: 450px;
     top: 15px;
@@ -228,8 +228,8 @@ body {
 }
 
 .about-monkees-para {
-    color: white;
-    background-color: black;
+    color: #f0df02;
+    background-color: #de2e30;
     font-size: 20px;
     height: 450px;
     border-left: solid 3px white;
@@ -259,8 +259,8 @@ body {
 /*---------------------------------------FOOTER*/
 
 .footer {
-    color: white;
-    background-color: grey;
+    color: black;
+    background-color: #fffee9;
     padding-top: 15px;
     border-top: 3px solid black;
 }
@@ -321,10 +321,10 @@ body {
 
 @media (max-width: 1612px) {
     .meet-monkees .title-meet {
-        background-color: grey;
+        background-color: #fffee9;
         font-size: 60px;
         font-weight: 700;
-        color: white;
+        color: black;
         top: 85px;
     }
 }
@@ -332,8 +332,8 @@ body {
 @media (max-width: 1480px) {
     .meet-monkees .first-names,
     .meet-monkees .second-names {
-        background-color: grey;
-        color: #fafafa;
+        background-color: #fffee9;
+        color: black;
         font-size: 30px;
         height: 257px;
         top: 55px;
@@ -343,14 +343,14 @@ body {
 @media (max-width: 1280px) {
     .meet-monkees .band-logo-front {
         background: url();
-        background-color: grey;
+        background-color: #fffee9;
     }
 }
 
 @media (max-width: 1180px) {
     .about-monkees-text {
-        color: white;
-        background-color: black;
+        color: #f0df02;
+        background-color: #de2e30;
         font-size: 50px;
         height: 450px;
         top: 15px;
@@ -394,7 +394,7 @@ body {
     .about-button,
     .contact-button {
         height: 100px;
-        background-color: black;
+        background-color: #de2e30;
         border: 2px solid white;
     }
     .home-button:hover,
@@ -403,7 +403,7 @@ body {
     .about-button:hover,
     .contact-button:hover {
         height: 100px;
-        background-color: #b18540;
+        background-color: #bd2729;
         border-left: 2px solid black;
         border-right: 2px solid black;
 
@@ -412,8 +412,8 @@ body {
         -webkit-transition: all .35s ease-in-out;
     }
     .about-monkees-para {
-        color: white;
-        background-color: black;
+        color: black;
+        background-color: #de2e30;
         font-size: 20px;
         height: 275px;
         top: 15px;
