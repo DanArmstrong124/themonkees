@@ -151,7 +151,7 @@ body {
 
 /*---------------------------------------/header*/
 
-/*---------------------------------------SECTION*/
+/*---------------------------------------HOME-SECTION*/
 
 /*---------------------------------------MEETTHEMONKEES*/
 
@@ -217,8 +217,8 @@ body {
 }
 
 .about-monkees-text {
-    color: #f0df02;
-    background-color: #de2e30;
+    color: #de2e30;
+    background-color: #f0df02;
     font-size: 50px;
     height: 450px;
     top: 15px;
@@ -255,7 +255,7 @@ body {
     margin-top: 15px;
     color: white;
     background-color: grey;
-    
+
     transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
@@ -263,7 +263,45 @@ body {
 
 /*---------------------------------------/mini-about*/
 
-/*---------------------------------------/section*/
+/*---------------------------------------/home-section*/
+
+/*---------------------------------------EVENTS-SECTION*/
+
+.events-page {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border-top: 2px solid black;
+
+}
+
+.events-title {
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.events-near-you {
+    height: 400px;
+    background-color: #f0df02;
+    color: #de2e30;
+    margin-left: 0px;
+}
+
+.events-page div .band-image2 {
+    height: 257px;
+    background: url(/assets/images/cover3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}
+
+.events-globally {
+    height: 400px;
+    background-color: #de2e30;
+    color: #f0df02;
+}
+
+/*---------------------------------------/events-section*/
 
 /*---------------------------------------FOOTER*/
 

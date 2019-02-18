@@ -95,11 +95,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The events were found online, using this webpage: [AXS](https://www.axs.com/uk/artists/112952/the-monkees-tickets).
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images).
+- The videos used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/video).
+- The audio used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/audio).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project's colour scheme from The Monkees logo found on [Twitter](https://twitter.com/themonkees).
