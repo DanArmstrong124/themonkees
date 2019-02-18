@@ -45,7 +45,7 @@ the 5 pages are:
 ## Technologies Used
 
 - [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
-    - The project wirefram was created on Balsamiq.
+    - The project wirefram was created on **Balsamiq**.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
     - The project uses **HTML** for the website to be developed.
