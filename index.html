@@ -21,6 +21,30 @@
         </marquee>
     </div>
     <header class="container-fluid">
+        <!--Dropdown menu for mobile-->
+        <div class="dropdown ddmenu col-xs-12 hidden-sm hidden-md hidden-lg">
+            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fa fa-th burger-button"></i>
+    <span class="caret"></span>
+  </button>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li class="col-xs-12 col-sm-2 home-button menuitem tac cap exo">
+                    <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-2 events-button menuitem tac cap exo">
+                    <a href="events.html"><i class="fa fa-home" aria-hidden="true"></i><span>Events</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-4 music-button menuitem tac cap exo">
+                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Music</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-2 about-button menuitem tac cap exo">
+                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>About Us</span></a>
+                </li>
+                <li class="col-xs-6 col-sm-2 contact-button menuitem tac cap exo">
+                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Contact Us</span></a>
+                </li>
+            </ul>
+        </div>
         <div class="row banner">
             <div class="col-xs-12 col banner-logo tac cap">
                 <span><h1>The Monkees</h1></span>
@@ -34,7 +58,7 @@
                     <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                 </li>
                 <li class="col-xs-6 col-sm-2 events-button menuitem tac cap exo">
-                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Events</span></a>
+                    <a href="events.html"><i class="fa fa-home" aria-hidden="true"></i><span>Events</span></a>
                 </li>
                 <li class="col-xs-6 col-sm-4 music-button menuitem tac cap exo">
                     <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Music</span></a>
@@ -46,47 +70,23 @@
                     <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Contact Us</span></a>
                 </li>
             </ul>
-            <!--Dropdown menu for mobile-->
-            <div class="dropdown col-xs-12 hidden-sm hidden-md hidden-lg">
-                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fa fa-th burger-button"></i>
-    <span class="caret"></span>
-  </button>
-                <ul class="dropdown-menu" aria-labelledby="dLabel">
-                    <li class="col-xs-12 col-sm-2 home-button menuitem tac cap exo">
-                        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 events-button menuitem tac cap exo">
-                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Events</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 music-button menuitem tac cap exo">
-                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Music</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 about-button menuitem tac cap exo">
-                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>About Us</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 contact-button menuitem tac cap exo">
-                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Contact Us</span></a>
-                    </li>
-                </ul>
-            </div>
         </div>
 
     </header>
 
     <section class="container-fluid">
         <div class="row meet-monkees">
-            <div class="col-xs-hidden col-sm-12 exo tac cap title-meet">
-                <p>Meet the monkees</p>
-            </div>
-            <div class="col-xs-6 col-sm-6 first-names tac cap exo">
+            <div class="col-xs-6 col-sm-3 first-names tac cap exo">
                 <span>
             <p>Peter Tork</p>
             <p>Michael Nesmith</p>
         </span>
             </div>
+            <div class="col-sm-6 exo tac cap title-meet">
+                <p>Meet the monkees</p>
+            </div>
             <!--<div class="col-xs-12 col-sm-2 band-logo-front tac cap"></div>-->
-            <div class="col-xs-6 col-sm-6 second-names tac cap exo">
+            <div class="col-xs-6 col-sm-3 second-names tac cap exo">
                 <span>
             <p>Mickey Dolenz</p>
             <p>Davy Jones</p>

@@ -33,6 +33,8 @@ the 5 pages are:
 - Footer - holds copyright, a small contact us and social links.
 - Social links - 3 links which a connected to send the user to the Twitter, Facebook or Youtube of the monkees via a new tab.
 - Hover - around the site, I have implimented minor hover states on buttons.
+- Mini-about - This is info on the monkees in less detail.
+- Scroll-Bar - This can be found on the mini-about feature, and is implimented through overflow.
 
 ### Features Left to Implement
 - Events page
