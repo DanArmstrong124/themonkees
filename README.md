@@ -35,9 +35,11 @@ the 5 pages are:
 - Hover - around the site, I have implimented minor hover states on buttons.
 - Mini-about - This is info on the monkees in less detail.
 - Scroll-Bar - This can be found on the mini-about feature, and is implimented through overflow.
+ 
+- Events page - Where the user can find TheMonkees future events.
 
 ### Features Left to Implement
-- Events page
+- More info with events coming up (pop up)
 - Music page
 - About page
 - Contact page
