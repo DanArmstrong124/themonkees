@@ -575,6 +575,9 @@ form {
     .events-page {
         margin-top: 85px;
     }
+    #contact-form form {
+        margin-top: 95px;
+    }
 }
 
 @media (max-width: 372px) {
