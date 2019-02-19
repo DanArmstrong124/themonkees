@@ -39,6 +39,7 @@ body {
 .ddmenu {
     top: 6px;
     right: 24px;
+    padding-bottom: 15px;
 }
 
 /*---------------------------------------/special*/
@@ -332,6 +333,10 @@ body {
 
 /*---------------------------------------/events-section*/
 
+/*---------------------------------------MUSIC-SECTION*/
+
+/*---------------------------------------/music-section*/
+
 /*---------------------------------------FOOTER*/
 
 .footer {
@@ -393,7 +398,6 @@ body {
 
 /*---------------------------------------/footer*/
 
-
 /*---------------------------------------MODALS*/
 
 .eventsmodaltext {
@@ -401,7 +405,6 @@ body {
 }
 
 /*---------------------------------------/modals*/
-
 
 /*---------------------------------------MEDIA*/
 
@@ -435,8 +438,8 @@ body {
 
 @media (max-width: 1180px) {
     .about-monkees-text {
-        color: #f0df02;
-        background-color: #de2e30;
+        color: #de2e30;
+        background-color: #f0df02;
         font-size: 50px;
         height: 450px;
         top: 15px;
