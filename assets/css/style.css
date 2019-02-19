@@ -42,7 +42,7 @@ body {
     padding-bottom: 15px;
 }
 
-.ntd {
+a .ntd {
     text-decoration: none;
 }
 
@@ -340,6 +340,19 @@ body {
 /*---------------------------------------MUSIC-SECTION*/
 
 /*---------------------------------------/music-section*/
+
+/*---------------------------------------ABOUT-SECTION*/
+
+/*---------------------------------------/about-section*/
+
+/*---------------------------------------CONTACT-SECTION*/
+
+.contact-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*---------------------------------------/contact-section*/
 
 /*---------------------------------------FOOTER*/
 
