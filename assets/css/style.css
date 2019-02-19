@@ -351,6 +351,10 @@ form {
     border-radius: 20px;
 }
 
+.select-ratings {
+    color: grey;
+}
+
 /*---------------------------------------/contact-section*/
 
 /*---------------------------------------FOOTER*/
