@@ -42,9 +42,6 @@ body {
     padding-bottom: 15px;
 }
 
-a .ntd {
-    text-decoration: none;
-}
 
 /*---------------------------------------/special*/
 
@@ -347,9 +344,11 @@ a .ntd {
 
 /*---------------------------------------CONTACT-SECTION*/
 
-.contact-form {
-    padding-top: 50px;
-    padding-bottom: 50px;
+form {
+    color: #de2e30;
+    background-color: #f0df02;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 /*---------------------------------------/contact-section*/
@@ -367,6 +366,11 @@ a .ntd {
 
 .contact-us-footer {
     padding-top: 25px;
+}
+
+.contact-us-footer a {
+    text-decoration: none;
+    color: black;
 }
 
 /*---------------------------------------/contact-footer*/
