@@ -338,7 +338,7 @@ body {
 
 .audio-songs a {
     text-decoration: none;
-    color: green;
+    color: #00d959;
 }
 
 .audio-songs a i {
@@ -352,7 +352,7 @@ body {
 
 .song-list p {
     padding-bottom: 15px;
-    color: black;
+    color: #de2e30;
     font-weight: 700;
 }
 
@@ -365,6 +365,17 @@ body {
 .music-video-smaller {
     padding: 25px;
     padding-top: 30px;
+}
+
+.top-hits {
+    background-color: #de2e30;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.audio-songs {
+    color: #de2e30;
+    background-color: #f0df02;
 }
 
 /*---------------------------------------/music-section*/
