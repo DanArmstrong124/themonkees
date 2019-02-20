@@ -362,6 +362,11 @@ body {
     width: auto;
 }
 
+.music-video-smaller {
+    padding: 25px;
+    padding-top: 30px;
+}
+
 /*---------------------------------------/music-section*/
 
 /*---------------------------------------ABOUT-SECTION*/
@@ -607,6 +612,10 @@ form {
     }
     #contact-form form {
         margin-top: 95px;
+    }
+    .music-video-smaller {
+        padding: 25px;
+        padding-top: 110px;
     }
 }
 
