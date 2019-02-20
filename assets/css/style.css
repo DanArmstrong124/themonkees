@@ -371,6 +371,7 @@ body {
     background-color: #de2e30;
     margin-top: 20px;
     padding: 10px;
+    border-bottom: 2px solid white;
 }
 
 .audio-songs {
@@ -420,6 +421,7 @@ body {
 .peter {
     height: 600px;
     padding: 10px;
+    border: 2px solid white;
 }
 
 .who-we-are {
