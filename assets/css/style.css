@@ -336,6 +336,15 @@ body {
 
 /*---------------------------------------MUSIC-SECTION*/
 
+.audio-songs a {
+    text-decoration: none;
+    color: green;
+}
+
+.audio-songs a i {
+    font-size: 24px;
+}
+
 /*---------------------------------------/music-section*/
 
 /*---------------------------------------ABOUT-SECTION*/
