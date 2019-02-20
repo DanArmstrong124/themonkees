@@ -408,7 +408,25 @@ body {
 .mikey,
 .peter {
     height: 600px;
+    padding: 10px;
+}
+
+.who-we-are {
+    color: #de2e30;
+    background-color: #f0df02;
+    margin-top: 20px;
+}
+
+.who-are-we-text {
+    color: #f0df02;
+    background-color: #de2e30;
+    padding: 10px;
+    line-height: 2em;
+    letter-spacing: 1px;
+    height: 200px;
     overflow-y: auto;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 /*---------------------------------------/about-section*/
