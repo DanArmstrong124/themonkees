@@ -98,6 +98,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The events were found online, using this webpage: [AXS](https://www.axs.com/uk/artists/112952/the-monkees-tickets).
+- I re-taught myself how to insert videos using an external website [W3S](https://www.w3schools.com/html/html5_video.asp).
 
 ### Media
 - The photos used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images).
