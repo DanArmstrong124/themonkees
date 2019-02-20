@@ -350,10 +350,16 @@ body {
     padding-bottom: 20px;
 }
 
-.song-list ul li {
+.song-list p {
     padding-bottom: 15px;
     color: black;
     font-weight: 700;
+}
+
+.top-hits .music-video {
+    padding: 25px;
+    height: auto;
+    width: auto;
 }
 
 /*---------------------------------------/music-section*/
