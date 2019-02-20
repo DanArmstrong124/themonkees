@@ -38,11 +38,16 @@ the 5 pages are:
  
 - Events page - Where the user can find TheMonkees future events.
 
+- Music page - Where the user can find TheMonkees audio and videos.
+- Video - The user can access a video of TheMonkees music.
+
+- About page - Where the user can find more information about TheMonkees.
+
+- Contact page - Where the user can submit a form to TheMonkees.
+
 ### Features Left to Implement
-- More info with events coming up (pop up)
-- Music page
-- About page
-- Contact page
+- History of TheMonkees?
+- Audio - The user can access audio files of TheMonkees music.
 
 ## Technologies Used
 
