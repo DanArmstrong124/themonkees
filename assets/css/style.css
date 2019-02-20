@@ -371,6 +371,38 @@ body {
 
 /*---------------------------------------ABOUT-SECTION*/
 
+.about-page .who-we-are .dj-image {
+    height: 200px;
+    background: url(/assets/images/davy-jones.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}
+
+.about-page .who-we-are .mn-image {
+    height: 200px;
+    background: url(/assets/images/michael-nesmith.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}
+
+.about-page .who-we-are .md-image {
+    height: 200px;
+    background: url(/assets/images/mikey-dolenz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}
+
+.about-page .who-we-are .pt-image {
+    height: 200px;
+    background: url(/assets/images/peter-tork.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}
+
 /*---------------------------------------/about-section*/
 
 /*---------------------------------------CONTACT-SECTION*/
