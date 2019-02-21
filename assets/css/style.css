@@ -203,6 +203,8 @@ body {
 
 .mini-about {
     padding-top: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .mini-about div .band-image {
@@ -464,8 +466,8 @@ form {
 .footer {
     color: black;
     background-color: #fffee9;
-    padding-top: 15px;
     border-top: 3px solid black;
+    margin-top: 13px;
 }
 
 /*---------------------------------------CONTACT-FOOTER*/
@@ -586,12 +588,10 @@ form {
 
 @media (max-width: 766px) {
     .events-globally p {
-        font-size: 14px;
+        font-size: 18px;
     }
     .events-near-you {
         height: 400px;
-        background-color: #de2e30;
-        color: #f0df02;
         margin-left: 0px;
     }
     .meet-monkees .title-meet {
@@ -660,7 +660,7 @@ form {
 
 @media (max-width: 732px) {
     .events-globally p {
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 5px;
     }
     .events-globally button {
@@ -673,7 +673,7 @@ form {
         font-size: 15px;
     }
     .events-globally h3 {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
@@ -697,10 +697,10 @@ form {
 
 @media (max-width: 372px) {
     .events-globally {
-        height: 490px;
+        height: 400px;
     }
     .events-near-you {
-        height: 490px;
+        height: 400px;
     }
 }
 

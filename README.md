@@ -104,7 +104,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The events were found online, using this webpage: [AXS](https://www.axs.com/uk/artists/112952/the-monkees-tickets).
 - I re-taught myself how to insert videos using an external website [W3S](https://www.w3schools.com/html/html5_video.asp).
-- Davy Jones info from [WIKI](https://en.wikipedia.org/wiki/Davy_Jones_(musician).
+- Davy Jones info from [WIKI](https://en.wikipedia.org/wiki/Davy_Jones_(musician)).
 - Michael Nesmith info from [WIKI](https://en.wikipedia.org/wiki/Michael_Nesmith).
 - Mikey Dolenz info from [WIKI](https://en.wikipedia.org/wiki/Micky_Dolenz).
 - Peter Tork info from [WIKI](https://en.wikipedia.org/wiki/Peter_Tork).
