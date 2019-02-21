@@ -424,12 +424,23 @@ body {
     height: 600px;
     padding: 10px;
     border: 2px solid white;
+    border-radius: 50px;
+}
+
+.davy img,
+.michael img,
+.mikey img,
+.peter img {
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-bottom: 10px;
 }
 
 .who-we-are {
     color: #de2e30;
     background-color: #f0df02;
     margin-top: 20px;
+    border-top: 2px solid black;
 }
 
 .who-are-we-text {
@@ -467,7 +478,6 @@ form {
     color: black;
     background-color: #fffee9;
     border-top: 3px solid black;
-    margin-top: 13px;
 }
 
 /*---------------------------------------CONTACT-FOOTER*/
