@@ -431,7 +431,6 @@ body {
     height: 600px;
     padding: 10px;
     border: 2px solid white;
-    border-radius: 50px;
 }
 
 .davy img,
@@ -472,6 +471,9 @@ form {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-items {}
@@ -483,7 +485,7 @@ form {
 .form-custom {
     text-align: center;
     display: block;
-    width: 20%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     height: 35px;
@@ -500,7 +502,7 @@ form {
 .form-textarea {
     text-align: center;
     display: block;
-    width: 20%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: 100px;
@@ -632,17 +634,21 @@ form {
         margin-top: 25px;
     }
     .form-custom {
-        width: 30%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         height: 35px;
     }
 
     .form-textarea {
-        width: 30%;
+        width: 80%;
+        padding-bottom: 80px;
         margin-left: auto;
         margin-right: auto;
         height: 35px;
+    }
+    form {
+        width: 50%;
     }
 }
 
@@ -735,17 +741,21 @@ form {
         font-size: 10px;
     }
     .form-custom {
-        width: 40%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         height: 35px;
     }
 
     .form-textarea {
-        width: 40%;
+        width: 80%;
+        padding-bottom: 80px;
         margin-left: auto;
         margin-right: auto;
         height: 35px;
+    }
+    form {
+        width: 70%;
     }
 }
 
@@ -764,10 +774,14 @@ form {
     }
 
     .form-textarea {
-        width: 60%;
+        width: 80%;
+        padding-bottom: 80px;
         margin-left: auto;
         margin-right: auto;
         height: 35px;
+    }
+    form {
+        width: 80%;
     }
 }
 
@@ -796,7 +810,7 @@ form {
         display: block;
     }
     .form-custom {
-        width: 80%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         height: 35px;
@@ -804,9 +818,13 @@ form {
 
     .form-textarea {
         width: 80%;
+        padding-bottom: 80px;
         margin-left: auto;
         margin-right: auto;
         height: 35px;
+    }
+    form {
+        width: 80%;
     }
 }
 

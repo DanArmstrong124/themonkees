@@ -2,17 +2,15 @@
 
 In this project I will be designing a user friendly website that allows for anyone to access music, events and some information on the monkees.
 It will be using Javascript, Html, CSS and Jquery.
+
+For reference to original designs, check out the [WireFrames](https://github.com/DanArmstrong124/themonkees/tree/master/assets/wireframe).
  
 ## UX
  
 - As a monkees fan, I want to hear the music of the monkees on their website, and can achieve this via the music page.
 - As a monkees fan, I want to learn more about the monkees on their website, and can achieve this via the about page.
 - As a monkees fan, I want to see the music of the monkees live, and can achieve this via the events page.
-- As a monkees fan, I want to be able to pay for tickets to the live events, and can achieve this through the more info buttons on the about page.
-
-You can find my wireframe for my project via the following path:
-
-/assets/wireframe/milestoneproject.pdf
+- As a monkees fan, I want to be able to pay for tickets to the live events, and can achieve this through the more info buttons on the events page.
 
 ## Features
 
@@ -38,6 +36,7 @@ the 5 pages are:
 - Scroll-Bar - This can be found on the mini-about feature, and is implimented through overflow.
  
 - Events page - Where the user can find TheMonkees future events.
+- Modal - This pops up when the user interacts with the more info button.
 
 - Music page - Where the user can find TheMonkees audio and videos.
 - Video - The user can access a video of TheMonkees music.
@@ -48,7 +47,6 @@ the 5 pages are:
 
 ### Features Left to Implement
 - History of TheMonkees?
-- Audio - The user can access audio files of TheMonkees music.
 
 ## Technologies Used
 
@@ -91,6 +89,8 @@ For any scenarios that have not been automated, test the user stories manually a
 
 3. Audio players:
    1. Go to the "Music" page
+   2. Click the play button on the spotify IFrames
+   3. Click the pause button on the spotify IFrames
 
 4. Information on the monkees:
    1. Go to the "Home" page
