@@ -49,6 +49,11 @@ the 5 pages are:
 
 ### Features Left to Implement
 - History of TheMonkees?
+- Mobile Wireframe
+- Validation
+- Comments
+- Testing of the Site
+- Finished README.md
 
 ## Technologies Used
 
