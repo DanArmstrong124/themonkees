@@ -347,6 +347,7 @@ body {
 
 .audio-songs h2 {
     padding-bottom: 20px;
+    padding-top: 20px;
     font-size: 42px;
 }
 
@@ -392,6 +393,10 @@ body {
 
 .song-list {
     padding-top: 20px;
+}
+
+.song-1 {
+    padding-bottom: 20px;
 }
 
 /*---------------------------------------/music-section*/
