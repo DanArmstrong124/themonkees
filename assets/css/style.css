@@ -342,18 +342,19 @@ body {
 }
 
 .audio-songs a i {
-    font-size: 24px;
+    font-size: 48px;
 }
 
-.song-list h5 {
-    font-size: 24px;
+.audio-songs h2 {
     padding-bottom: 20px;
+    font-size: 42px;
 }
 
 .song-list p {
     padding-bottom: 15px;
     color: #de2e30;
     font-weight: 700;
+    font-size: 42px;
 }
 
 .top-hits .music-video {
@@ -386,6 +387,11 @@ body {
 .audio-songs {
     color: #de2e30;
     background-color: #f0df02;
+    padding-top: 20px;
+}
+
+.song-list {
+    padding-top: 20px;
 }
 
 /*---------------------------------------/music-section*/
@@ -718,10 +724,10 @@ form {
         -webkit-transition: all .35s ease-in-out;
     }
     .about-monkees-para {
-        color: black;
+        color: #f0df02;
         background-color: #de2e30;
         font-size: 20px;
-        height: 275px;
+        height: 500px;
     }
 }
 

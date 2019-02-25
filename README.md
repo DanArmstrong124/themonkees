@@ -3,6 +3,8 @@
 In this project I will be designing a user friendly website that allows for anyone to access music, events and some information on the monkees.
 It will be using Javascript, Html, CSS and Jquery.
 
+TheMonkees were a 1960's hit band formed of 4 members, fans would use a website like this to find music of theirs, watch footage, and dive into the information and history of what the monkees did and what they became.
+
 For reference to original designs, check out the [WireFrames](https://github.com/DanArmstrong124/themonkees/tree/master/assets/wireframe).
  
 ## UX
@@ -68,12 +70,6 @@ the 5 pages are:
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
@@ -104,14 +100,20 @@ For any scenarios that have not been automated, test the user stories manually a
    3. Try and click the close button on the modal
    4. Try and click the buy tickets button on the modal
 
+6. Responsive Design:
+   1. Go through each page using a mobile view, I used IPhone 5
+   2. Go through each page using a tablet view, I used X
+   3. Go through each page using your standard desktop view
+
 ## Deployment
 
-1. I used Cloud9 for my website deployment
+- I used Cloud9 for my website deployment
    1. First I would edit my code
    2. I would then save to Cloud9
    3. I would then hit run at the top of the screen
    4. I would check for errors on the site, ensuring that everything is working
    -  If there are any erros I would go back and resolve them, and start from step 1
+   -  If I was struggling to find the 'Website Breaking' code, I would use validators which are *referenced in the credits* to locate it, and start from step 1
    5. Using Git I would push my code to GitHub to ensure it is backed up online
 
 
@@ -135,3 +137,7 @@ For any scenarios that have not been automated, test the user stories manually a
 ### Acknowledgements
 
 - I received inspiration for this project's colour scheme from The Monkees logo found on [Twitter](https://twitter.com/themonkees).
+- I received validation of my HTML using this [HTML Validator](https://validator.w3.org/nu/#textarea).
+- - Some code is found to be 'Invalid' due to bootstrap being used causing minor errors in the <div>'s etc.
+- I received validatoin of my CSS using this [CSS Validator](https://jigsaw.w3.org/css-validator/).
+- - Some code is found to be 'Invalid' due to bootstrap being used causing minor errors in the <div>'s etc.
