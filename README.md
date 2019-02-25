@@ -42,6 +42,8 @@ the 5 pages are:
 
 - Music page - Where the user can find TheMonkees audio and videos.
 - Video - The user can access a video of TheMonkees music.
+- Audio - The user can access 4 audio (mp3)'s of TheMonkees music.
+- Spotify link - The user can access TheMonkees music via the spotify link.
 
 - About page - Where the user can find more information about TheMonkees.
 
