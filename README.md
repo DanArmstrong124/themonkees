@@ -130,7 +130,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 - The photos used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images).
 - The videos used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/video).
-- The audio used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/audio).
+- The audio used in this site were obtained from [Spotify](https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck).
+- The spotify buttons were obtained via [Spotify API](https://developer.spotify.com/documentation/widgets/generate/play-button/).
 
 ### Acknowledgements
 
