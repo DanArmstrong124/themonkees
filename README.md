@@ -8,6 +8,7 @@ It will be using Javascript, Html, CSS and Jquery.
 - - As a monkees fan, I want to hear the music of the monkees on their website, and can achieve this via the music page.
 - - As a monkees fan, I want to learn more about the monkees on their website, and can achieve this via the about page.
 - - As a monkees fan, I want to see the music of the monkees live, and can achieve this via the events page.
+- - As a monkees fan, I want to be able to pay for tickets to the live events, and can achieve this through the more info buttons on the about page.
 
 You can find my wireframe for my project via the following path:
 
@@ -81,11 +82,27 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+2. Video player:
+   1. Go to the "Music" page
+   2. Press play on the MP4 video player
+   3. Try to get the video to enlarge
+   4. Try to get the video to fast forward/rewind
+   5. Try to pause and re-play the video
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+3. Audio players:
+   1. Go to the "Music" page
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+4. Information on the monkees:
+   1. Go to the "Home" page
+   2. Try to scroll down the information below the image of the monkees
+   3. Go to the "About us" page
+   4. Try to scroll down the information of each member of the monkees found below the images
+
+5. Events:
+   1. Go to the "Events" page
+   2. Try and click the more-info buttons under each global events
+   3. Try and click the close button on the modal
+   4. Try and click the buy tickets button on the modal
 
 ## Deployment
 
@@ -108,6 +125,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Michael Nesmith info from [WIKI](https://en.wikipedia.org/wiki/Michael_Nesmith).
 - Mikey Dolenz info from [WIKI](https://en.wikipedia.org/wiki/Micky_Dolenz).
 - Peter Tork info from [WIKI](https://en.wikipedia.org/wiki/Peter_Tork).
+- TheMonkees info from [WIKI](https://en.wikipedia.org/wiki/The_Monkees).
 
 ### Media
 - The photos used in this site were obtained from [GitHub](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images).

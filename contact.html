@@ -81,15 +81,21 @@
             <p>* Required</p><br>
             <div class="form-group">
                 <label for="fullname">Full Name *</label>
-                <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
+                <div class="form-items">
+                    <input type="text" class="form-custom" id="fullname" placeholder="Full Name" required>
+                </div>
             </div>
             <div class="form-group ">
                 <label for="email">Email *</label>
-                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <div class="form-items">
+                    <input type="email" class="form-custom" id="email" placeholder="Email" required>
+                </div>
             </div>
             <div class="form-group">
                 <label for="textarea">Enquiry *</label>
-                <textarea id="textarea" class="form-control" rows="3" placeholder="Please enter your enquiry here" required></textarea>
+                <div class="form-items">
+                    <textarea id="textarea" class="form-textarea" rows="3" placeholder="Please enter your enquiry here" required></textarea>
+                </div>
             </div>
             <div class="form-group">
                 <label for="rating">Rate the site?</label><br>
@@ -107,7 +113,7 @@
       <input type="checkbox" required> I Agree To No Being A Robot *
     </label>
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-default" data-toggle="modal" data-target="#submitmodal">Submit</button>
         </form><br>
     </section>
 
@@ -132,6 +138,26 @@
     <!--Javascript and JQuery-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    
+        <section class="modals">
+        <!-- submitmodal -->
+        <div class="modal fade" id="submitmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Thank You</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="eventsmodaltext">Filled in all the information? Then your message has been submitted, <br>we hope you hear from us soon!<br> Do us a favour and double check that you have met the<br> requirements to submit this message!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
