@@ -5,10 +5,10 @@ It will be using Javascript, Html, CSS and Jquery.
  
 ## UX
  
-- - As a monkees fan, I want to hear the music of the monkees on their website, and can achieve this via the music page.
-- - As a monkees fan, I want to learn more about the monkees on their website, and can achieve this via the about page.
-- - As a monkees fan, I want to see the music of the monkees live, and can achieve this via the events page.
-- - As a monkees fan, I want to be able to pay for tickets to the live events, and can achieve this through the more info buttons on the about page.
+- As a monkees fan, I want to hear the music of the monkees on their website, and can achieve this via the music page.
+- As a monkees fan, I want to learn more about the monkees on their website, and can achieve this via the about page.
+- As a monkees fan, I want to see the music of the monkees live, and can achieve this via the events page.
+- As a monkees fan, I want to be able to pay for tickets to the live events, and can achieve this through the more info buttons on the about page.
 
 You can find my wireframe for my project via the following path:
 
@@ -21,11 +21,11 @@ A small alert bar will be on the top of the page allowing for users to know any 
 
 the 5 pages are:
 
-- - Home page: basic info, the names of the members in the Monkees etc.
-- - Events page: Will have events "Near" you, and events globally.
-- - Music page: Will have the music uploaded in MP3 and MP4 formats for the user to listen to.
-- - About page: Will have a more detailed description of who the monkees are and what they do.
-- - Contact page: Will have a form that a user can fill out to get in touch.
+- Home page: basic info, the names of the members in the Monkees etc.
+- Events page: Will have events "Near" you, and events globally.
+- Music page: Will have the music uploaded in MP3 and MP4 formats for the user to listen to.
+- About page: Will have a more detailed description of who the monkees are and what they do.
+- Contact page: Will have a form that a user can fill out to get in touch.
  
 ### Existing Features
 - Home page - the users first impression on the site.
