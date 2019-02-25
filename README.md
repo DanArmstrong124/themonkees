@@ -106,14 +106,13 @@ For any scenarios that have not been automated, test the user stories manually a
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. I used Cloud9 for my website deployment
+   1. First I would edit my code
+   2. I would then save to Cloud9
+   3. I would then hit run at the top of the screen
+   4. I would check for errors on the site, ensuring that everything is working
+   -  If there are any erros I would go back and resolve them, and start from step 1
+   5. Using Git I would push my code to GitHub to ensure it is backed up online
 
 
 ## Credits
