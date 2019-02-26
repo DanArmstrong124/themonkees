@@ -56,7 +56,6 @@ the 5 pages are:
 - Comments
 - Testing of the Site
 - Finished README.md
-- Add author
 
 ## Technologies Used
 
