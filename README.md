@@ -54,7 +54,6 @@ the 5 pages are:
 - Validation
 - Testing of the Site
 - Finished README.md
-- Button to top and bottom
 - fix submit button
 
 ## Technologies Used
