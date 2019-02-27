@@ -5,6 +5,8 @@ It will be using Javascript, Html, CSS and Jquery.
 
 TheMonkees were a 1960's hit band formed of 4 members, fans would use a website like this to find music of theirs, watch footage, and dive into the information and history of what the monkees did and what they became.
 
+I Validated my code using the validators referenced in acknowledgements, the 'errors' found are due to bootstrap being used, classing the CSS as a CSS hack, and the HTML being used in specific ways with bootstrap to be classed as an error too.
+
 For reference to original designs, check out the [WireFrames](https://github.com/DanArmstrong124/themonkees/tree/master/assets/wireframe).
  
 ## UX
@@ -51,8 +53,8 @@ the 5 pages are:
 - Contact page - Where the user can submit a form to TheMonkees.
 
 ### Features Left to Implement
-- Validation
 - Finished README.md
+- (TRY AND FIX SUBMIT BUTTON)
 
 ## Technologies Used
 
