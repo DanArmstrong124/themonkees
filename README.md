@@ -52,7 +52,6 @@ the 5 pages are:
 
 ### Features Left to Implement
 - Validation
-- Testing of the Site
 - Finished README.md
 - fix submit button
 
@@ -108,7 +107,7 @@ the 5 pages are:
 
 6. Responsive Design:
    1. Go through each page using a mobile view, I used IPhone 5
-   2. Go through each page using a tablet view, I used X
+   2. Go through each page using a tablet view, I used IPad Pro
    3. Go through each page using your standard desktop view
 
 ## Deployment
