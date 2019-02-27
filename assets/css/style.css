@@ -403,6 +403,11 @@ body {
 
 /*---------------------------------------ABOUT-SECTION*/
 
+.about-page {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .about-page .who-we-are .dj-image {
     height: 200px;
     background: url(/assets/images/davy-jones.jpg);
