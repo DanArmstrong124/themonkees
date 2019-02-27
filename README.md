@@ -46,11 +46,11 @@ the 5 pages are:
 - Spotify link - The user can access TheMonkees music via the spotify link.
 
 - About page - Where the user can find more information about TheMonkees.
+- Timeline - This is a small timeline of major events in TheMonkees career.
 
 - Contact page - Where the user can submit a form to TheMonkees.
 
 ### Features Left to Implement
-- History of TheMonkees?
 - Validation
 - Testing of the Site
 - Finished README.md
