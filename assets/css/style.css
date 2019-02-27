@@ -472,6 +472,60 @@ body {
     overflow-y: auto;
 }
 
+/*---------------------------------------HISTORY*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #f0df02;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #f0df02;
+}
+
+.history-heading {
+    color: #f0df02;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.bg-colour-work-history {
+    background-color: #de2e30;
+}
+
+/*---------------------------------------/history*/
+
 /*---------------------------------------/about-section*/
 
 /*---------------------------------------CONTACT-SECTION*/
