@@ -482,7 +482,7 @@ body {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #f0df02;
+    color: #de2e30;
     border-left: 1px solid;
 }
 
@@ -513,11 +513,11 @@ body {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #f0df02;
+    background: #de2e30;
 }
 
 .history-heading {
-    color: #f0df02;
+    color: #de2e30;
     margin-bottom: 50px;
 }
 
@@ -526,7 +526,7 @@ body {
 }
 
 .bg-colour-work-history {
-    background-color: #de2e30;
+    background-color: #f0df02;
 }
 
 /*---------------------------------------/history*/
