@@ -52,7 +52,6 @@ the 5 pages are:
 ### Features Left to Implement
 - History of TheMonkees?
 - Validation
-- Comments
 - Testing of the Site
 - Finished README.md
 - Button to top and bottom
