@@ -53,7 +53,6 @@ the 5 pages are:
 ### Features Left to Implement
 - Validation
 - Finished README.md
-- fix submit button
 
 ## Technologies Used
 
