@@ -53,8 +53,9 @@ the 5 pages are:
 - Contact page - Where the user can submit a form to TheMonkees.
 
 ### Features Left to Implement
-- Finished README.md
+- UPDATE IMAGE LOOKS
 - (TRY AND FIX SUBMIT BUTTON)
+- Finished README.md
 
 ## Technologies Used
 
