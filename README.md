@@ -147,6 +147,6 @@ the 5 pages are:
 
 - I received inspiration for this project's colour scheme from The Monkees logo found on [Twitter](https://twitter.com/themonkees).
 - I received validation of my HTML using this [HTML Validator](https://validator.w3.org/nu/#textarea).
-- - Some code is found to be 'Invalid' due to bootstrap being used causing minor errors in the <div>'s etc.
+- - Some code is found to be 'Invalid' due to bootstrap being used causing minor errors to prompt for the div or spans etc.
 - I received validatoin of my CSS using this [CSS Validator](https://jigsaw.w3.org/css-validator/).
-- - Some code is found to be 'Invalid' due to bootstrap being used causing minor errors in the <div>'s etc.
+- - Some code is found to be 'Invalid' due to bootstrap being used causing minor errors to prompt for the div or spans etc.
