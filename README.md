@@ -121,6 +121,9 @@ the 5 pages are:
    -  If there are any erros I would go back and resolve them, and start from step 1
    -  If I was struggling to find the 'Website Breaking' code, I would use validators which are *referenced in the credits* to locate it, and start from step 1
    5. Using Git I would push my code to GitHub to ensure it is backed up online
+   -  git add .
+   -  git commit -m "what's changed"
+   -  git push
 
 
 ## Credits
