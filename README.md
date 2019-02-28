@@ -3,6 +3,11 @@
 In this project I will be designing a user friendly website that allows for anyone to access music, events and some information on the monkees.
 It will be using Javascript, Html, CSS and Jquery.
 
+I have decided to do my first project on TheMonkees rather than customise my own project, as I believe that to settle into the milestone projects, I should first get a grip on what they are going to be like,
+and to do so, I have used the idea given to me via codeinstitute. Other than the concept of a website for TheMonkees, the website has been completely customised to how I believe a fan of TheMonkees would expect a site to be.
+
+This was done via using TheMonkees logo for the colour scheme, knowledge of TheMonkees being very outgoing, I have tried to show this on my website.
+
 TheMonkees were a 1960's hit band formed of 4 members, fans would use a website like this to find music of theirs, watch footage, and dive into the information and history of what the monkees did and what they became.
 
 I Validated my code using the validators referenced in acknowledgements, the 'errors' found are due to bootstrap being used, classing the CSS as a CSS hack, and the HTML being used in specific ways with bootstrap to be classed as an error too.
