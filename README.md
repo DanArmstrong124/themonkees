@@ -55,6 +55,7 @@ the 5 pages are:
 
 ### Features Left to Implement
 - Finished README.md
+- Top and Bottom Buttons
 
 ## Technologies Used
 
