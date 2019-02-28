@@ -54,8 +54,6 @@ the 5 pages are:
 - - I Would have like to have made the submit button redirect the user, however I believe it would not show my knowledge so far if I added something which I had to google.
 
 ### Features Left to Implement
-- Finished README.md
-- Top and Bottom Buttons
 
 ## Technologies Used
 
