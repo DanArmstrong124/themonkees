@@ -205,12 +205,12 @@ body {
     margin-top: 20px;
 }
 
-.mini-about div .band-image {
-    height: 257px;
-    background: url(/assets/images/band.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 15px;
+.mini-about .about-monkees-para img {
+    width: 220px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 10px;
 }
 
 .about-monkees-text p {
@@ -290,12 +290,20 @@ body {
     margin-left: 0px;
 }
 
-.events-page div .band-image2 {
-    height: 257px;
-    background: url(/assets/images/cover3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 15px;
+.events-page .events-near-you img {
+    width: 260px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.events-page .events-image img {
+    width: 300px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 10px;
 }
 
 .events-globally {
@@ -684,6 +692,24 @@ form {
     }
 }
 
+@media (max-width: 1342px) {
+    .events-page .events-near-you img {
+        width: 200px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+    .events-page .events-image img {
+        width: 240px;
+        height: 170px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
+}
+
 @media (max-width: 1280px) {
     .meet-monkees .band-logo-front {
         background: url();
@@ -720,15 +746,63 @@ form {
     form {
         width: 50%;
     }
+    .events-page .events-near-you img {
+        width: 250px;
+        height: 180px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+    .events-page .events-image img {
+        width: 230px;
+        height: 170px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .events-page .events-near-you img {
+        width: 220px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+    .events-page .events-image img {
+        width: 170px;
+        height: 120px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
 }
 
 @media (max-width: 880px) {
     .events-globally p {
         font-size: 12px;
     }
+    .events-page .events-near-you img {
+        width: 220px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+    .events-page .events-image img {
+        width: 150px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
     .meet-monkees {
         margin-top: 35px;
     }
@@ -792,6 +866,21 @@ form {
         background-color: #de2e30;
         font-size: 20px;
         height: 500px;
+    }
+    .events-page .events-near-you img {
+        width: 250px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+    .events-page .events-image img {
+        width: 290px;
+        height: 220px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 10px;
     }
 }
 
