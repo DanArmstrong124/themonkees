@@ -49,6 +49,7 @@ the 5 pages are:
 
 - Music page - Where the user can find TheMonkees audio and videos.
 - Video - The user can access a video of TheMonkees music.
+- - As found in music.html there are 3 videos, all of which are the same but with different resolutions. This is because CSS wouldn't allow for me to shrink the video for responsive design.
 - Audio - The user can access 4 audio (mp3)'s of TheMonkees music.
 - Spotify link - The user can access TheMonkees music via the spotify link.
 
