@@ -130,6 +130,9 @@ the 5 pages are:
    -  git commit -m "what's changed"
    -  git push
 
+- I also tried to deploy my website using GitHub Pages
+- - There was an issue with Images loading, so I searched for help online, and it turns out to be a common issue.
+
 
 ## Credits
 
